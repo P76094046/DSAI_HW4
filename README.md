@@ -38,6 +38,7 @@ pip install xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl
   - 'subsample':'0.75'  
  
 訓練結果可以看出比較重要的特徵，如下圖。
+![image](https://github.com/P76094046/DSAI_HW4/blob/main/%E4%B8%8B%E8%BC%89.png)
 
 
 
