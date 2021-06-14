@@ -12,8 +12,7 @@ pip install xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl
 
 
 ### 下載 Dataset
-- https://www.kaggle.com/c/instacart-market-basket-analysis/data 下載資料後將資料解壓縮，放到和程式碼同一個資料夾
-- (或下載此資料夾https://drive.google.com/drive/folders/191ThFZSKoWIqWaIIiKhDLupbTAMLUZH_?usp=sharing 不用解壓縮，和程式碼放到同一個資料夾)
+- 下載此資料夾 https://drive.google.com/drive/folders/191ThFZSKoWIqWaIIiKhDLupbTAMLUZH_?usp=sharing 和程式碼放到同一個資料夾
 - 將當前路徑改到該資料夾後即可執行
 - 資料關係如下圖
 ![image](https://github.com/P76094046/DSAI_HW4/blob/main/%E6%93%B7%E5%8F%96.PNG)
