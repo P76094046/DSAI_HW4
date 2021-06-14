@@ -17,6 +17,11 @@ pip install xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl
 資料關係如下圖  
 ![image](https://github.com/P76094046/DSAI_HW4/blob/main/images/%E6%93%B7%E5%8F%96.PNG)
 
+### 執行程式
+```
+python DSAI_HW4.py
+```
+
 ### Feature Engineering
 新增了一些可用於訓練的 features
 - **User features**: 
