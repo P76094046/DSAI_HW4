@@ -18,6 +18,9 @@ pip install xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl
 ### EDA
 
 ### Model
--parameters
+- parameters:
+  - 'eval_metric':'logloss', 
+  - 'max_depth':'5', 
+  - 'colsample_bytree':'0.5',    # 0.4
+  - 'subsample':'0.75'  
 
-### Result
