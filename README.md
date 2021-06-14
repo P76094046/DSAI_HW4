@@ -1,6 +1,6 @@
 # DSAI_HW4
 
-- google silde: https://drive.google.com/file/d/1FAGsdAZw_mbuFgjZoz1Nr2M9QEXLMmXD/view?usp=sharing
+- report google silde: https://drive.google.com/file/d/1FAGsdAZw_mbuFgjZoz1Nr2M9QEXLMmXD/view?usp=sharing
 
 ### 下載需要的套件以及 XGBoost
 XGBoost 可到 https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost 下載 xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl 後安裝
