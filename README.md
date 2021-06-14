@@ -13,7 +13,7 @@ pip install xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl
 ### 程式執行方式
 
 ### Dataset
-- https://www.kaggle.com/c/instacart-market-basket-analysis/data
+- https://www.kaggle.com/c/instacart-market-basket-analysis/data 下載資料後將資料解壓縮，放到和程式碼同一個資料夾
 
 ### EDA
 
