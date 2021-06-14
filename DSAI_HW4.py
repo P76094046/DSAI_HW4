@@ -25,7 +25,7 @@ products = pd.read_csv("./instacart-market-basket-analysis/products.csv/products
 departments['department'] = departments['department'].astype('category')
 products['product_name'] = products['product_name'].astype('category')
 
-
+'''
 kwargs = dict( alpha=0.5, histtype='stepfilled', edgecolor='none')  # , color='steelblue'
 fig, ax = plt.subplots(1, 3, figsize=(15,5))
 
@@ -40,7 +40,7 @@ ax[1].set_title("order_hour_of_day")
 ax[2].set_title("order_number")
 fig.tight_layout()
 plt.show()
-
+'''
 #%% 
 
 """## For user info"""
