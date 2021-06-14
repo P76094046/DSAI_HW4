@@ -17,15 +17,27 @@ pip install xgboost‑1.3.1‑cp36‑cp36m‑win_amd64.whl
 - 資料關係如下圖
 ![image](https://github.com/P76094046/DSAI_HW4/blob/main/%E6%93%B7%E5%8F%96.PNG)
 
-### EDA
-- User features: 
-- Product features:
-- User x Product features:
+### Feature Engineering
+- **User features**: 
+  - num_orders: 訂單數量
+  - avg_days_btw_orders: 平均訂單時間間隔
+- **Product features**:
+  -  sales volume: 銷售量
+  - prod_reordered_rate: 被再次訂購的比例
+- **User x Product features**:
+  - prod_reordered_rate_by_user: 商品被同一消費者重新購買的機率
+  - user_reorder_rate: 消費者再次購買同一項商品的比例(第二次購買的東西有多少是第一次買過的)
+  - prod_reordered_rate: 商品被再次購買的機率
+  - order_back: 商品在消費者的最後五筆訂單中出現幾次
 
-### Model
+### Model: XGBoost classifier
 - parameters:
-  - 'eval_metric':'logloss', 
-  - 'max_depth':'5', 
-  - 'colsample_bytree':'0.5', 
+  - 'eval_metric':'logloss'
+  - 'max_depth':'5'
+  - 'colsample_bytree':'0.5'
   - 'subsample':'0.75'  
+ 
+訓練結果可以看出比較重要的特徵，如下圖。
+
+
 
