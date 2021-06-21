@@ -191,7 +191,7 @@ X_train, y_train = Data_train.drop('reordered', axis=1), Data_train.reordered.as
 
 XGB = xgb.XGBClassifier(objective='binary:logistic', parameters=parameters, num_boost_round=10)
 model = XGB.fit(X_train, y_train)
-xgb.plot_importance(model)
+# xgb.plot_importance(model)
 
 model.get_xgb_params()
 
