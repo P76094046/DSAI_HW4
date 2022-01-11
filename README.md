@@ -1,4 +1,4 @@
-# DSAI_HW4
+# Kaggle competition:Instacart Market Basket Analysis
 
 - report google silde: https://drive.google.com/file/d/1FAGsdAZw_mbuFgjZoz1Nr2M9QEXLMmXD/view?usp=sharing
 
